@@ -94,7 +94,11 @@
           Tersedia di Berbagai Device
         </h1>
         <div class="w-full">
-          <img src="~assets/images/mockup.png" class="mx-auto" alt="mockup" />
+          <img
+            src="~assets/images/mockup.png"
+            class="mockup-gambar"
+            alt="mockup"
+          />
         </div>
       </div>
     </div>
@@ -172,6 +176,11 @@ export default {};
   background-image: url("~assets/images/shapes/ellips2.svg");
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.mockup-gambar {
+  margin-left: 60%;
+  transform: translate(-50%);
 }
 
 .testi {
