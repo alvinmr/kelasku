@@ -12,8 +12,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href : 'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap', rel : 'stylesheet'}
-    ]
+      { href : 'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap', rel : 'stylesheet'},
+      { href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap', rel : 'stylesheet'},
+      { href: 'https://fonts.gstatic.com', rel : 'preconnect' }
+    ],
+    
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

@@ -2,7 +2,6 @@
   <div class="tentang">
     <div class="mx-24">
       <Navbar />
-
       <div class="flex flex-row items-center mt-20">
         <div class="w-7/12 p-10">
           <h1 class="text-5xl font-bold">Kelasku</h1>
