@@ -1,0 +1,10 @@
+<svg width="58" height="57" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.3782 0.661299L0.0317761 48.7032C14.0736 59.8429 34.6648 59.1831 47.5324 46.6557C60.3999 34.1283 60.9647 14.1914 49.3782 0.661299Z" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.3782 0.661299L0.0317761 48.7032C14.0736 59.8429 34.6648 59.1831 47.5324 46.6557C60.3999 34.1283 60.9647 14.1914 49.3782 0.661299Z" fill="#FFC860"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="translate(0 -0.111029) scale(0.000732064 0.00159122)"/>
+</pattern>
+
+</defs>
+</svg>

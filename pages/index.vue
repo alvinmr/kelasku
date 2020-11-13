@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full awal">
+    <div class="awal">
       <div class="mx-24">
         <Navbar />
         <HeroSection />
@@ -8,35 +8,7 @@
       <img src="~/assets/images/wave.png" alt="wave" class="wave" />
     </div>
     <!-- Service Section -->
-    <div class="pb-64 service">
-      <h1 class="text-5xl font-bold text-center">Kelasku Menyediakan</h1>
-      <div class="mx-24">
-        <div class="flex">
-          <CardService
-            title="Ebook"
-            details="Menyediakan buku creative untuk anak yang tersedia secara gratis dan bisa dibaca kapan pun dan dimana pun."
-            :gambar="require('@/assets/images/ebook.svg')"
-          />
-          <CardService
-            class="mt-16"
-            title="Video Creative"
-            details="Selain Ebook gratis kita menyediakan Video yang memacu creativitas anak."
-            :gambar="require('@/assets/images/vcreative.svg')"
-          />
-          <CardService
-            title="Teman Diskusi"
-            details="Kita akan membantu mengembangkan ide dari anak."
-            :gambar="require('@/assets/images/teman_diskusi.svg')"
-          />
-          <CardService
-            class="mt-16"
-            title="Gudang Karya"
-            details="Berisi beberapa hasil karya dari anak yang sudah mengikuti kelaskita."
-            :gambar="require('@/assets/images/gudang_karya.svg')"
-          />
-        </div>
-      </div>
-    </div>
+    <ServiceSection />
 
     <!-- Anak kecil lompat seneng heyy Section -->
     <div class="relative pb-64 childern-happy">
@@ -44,7 +16,7 @@
         <img
           src="~/assets/images/kids_jump.png"
           alt="kids jump"
-          class="w-1/2 -mt-16"
+          class="-mt-16"
         />
         <div class="self-center">
           <h1 class="text-5xl font-bold text-white">Berkembang bersama</h1>
@@ -122,17 +94,7 @@
     </div>
 
     <!-- Footer Section -->
-    <div class="relative footer">
-      <div class="flex py-32 mx-24">
-        <div class="self-center">
-          <h1 class="text-5xl font-bold text-white">Hubungi Kami</h1>
-          <p class="text-white">
-            Untuk pertanyaan kelasku, silakan kirim email kekelasku@gmail.com
-          </p>
-        </div>
-        <div></div>
-      </div>
-    </div>
+    <Footer />
   </div>
 </template>
 

@@ -3,21 +3,23 @@
     class="grid items-center content-center justify-between grid-flow-col pt-10"
   >
     <div class="grid grid-flow-col gap-10">
-      <a href="#" class="nav-link">Beranda</a>
-      <a href="#" class="nav-link">Tentang Kita</a>
+      <nuxt-link to="/" class="nav-link">Beranda</nuxt-link>
+      <nuxt-link to="tentang" class="nav-link">Tentang Kita</nuxt-link>
     </div>
 
     <img src="~/assets/images/logo_kelasku.svg" alt="Logo Kelasku" />
 
     <div class="grid grid-flow-col gap-10">
-      <a href="#" class="self-center nav-link">Masuk</a>
-      <a href="#" class="btn-primary nav-link">Daftar</a>
+      <nuxt-link to="masuk" class="self-center nav-link">Masuk</nuxt-link>
+      <nuxt-link to="daftar" class="btn-primary nav-link">Daftar</nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Navbar",
+};
 </script>
 
 <style>
