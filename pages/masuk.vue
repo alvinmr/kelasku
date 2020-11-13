@@ -47,6 +47,9 @@ export default {};
 </script>
 
 <style>
+.masuk {
+  background-image: url("~assets/images/daftar.jpg");
+}
 .card-masuk {
   width: 540px;
 }

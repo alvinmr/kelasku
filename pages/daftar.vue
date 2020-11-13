@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex items-center justify-center masuk">
+    <div class="flex items-center justify-center daftar">
       <div class="p-8 my-10 bg-white rounded-xl">
         <!-- <h1 class="text-4xl font-bold text-center">Kelasku</h1> -->
         <div class="flex justify-center">
@@ -69,7 +69,7 @@ input:focus {
   border: 2px solid black;
 }
 
-.masuk {
+.daftar {
   font-family: "Montserrat";
   background-image: url("~assets/images/masuk.jpg");
 }
