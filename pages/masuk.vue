@@ -2,10 +2,7 @@
   <div>
     <div class="flex items-center justify-center masuk">
       <div class="p-8 my-10 bg-white rounded-xl card-masuk">
-        <!-- <h1 class="text-4xl font-bold text-center">Kelasku</h1> -->
-        <div class="flex justify-center">
-          <img src="~assets/images/logo_kelasku.svg" alt="Logo Kelasku" />
-        </div>
+        <h1 class="text-4xl font-bold text-center">Kelasku</h1>
         <h3 class="my-10 text-2xl font-bold">Selamat datang kembali</h3>
         <div class="flex flex-col">
           <div class="input-group">
@@ -18,7 +15,7 @@
             <small>8+ karakter</small>
           </div>
 
-          <button type="submit" class="form-button">Masuk</button>
+          <nuxt-link to="dashboard" class="form-button">Masuk</nuxt-link>
         </div>
         <div class="my-16 bg-black line"></div>
         <div class="flex justify-center -mt-20">

@@ -6,11 +6,11 @@
         <div class="w-7/12 p-10">
           <h1 class="text-5xl font-bold">Kelasku</h1>
           <p>
-            Di kelaskita. Kami sangat fokus terhadap anak - anak yang sedang
-            menuju ke dewasa agar memiliki creativitas, yang dimana di sekolah
-            anak - anak jarang di asah creativitasnya, dan disinilah kami hadir
-            agar membantu mengembangkan anak yang creative dan inofatif
-            kedepannya.
+            Kelasku sangatlah berfokus terhadap perkembangan anak dibidang
+            kreatif. Yang dimana kita ketahui layanan edukasi di bidang kreatif
+            kita ketahi di Indonesia masih belom ada. Dan disinilah kita hadir,
+            yang bercita-cita ingin membantu perkembangan anak sejak dini,
+            supaya tidak takut untuk berkarya.
           </p>
         </div>
         <div class="relative w-7/12 tentang-gambar">

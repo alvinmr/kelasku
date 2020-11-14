@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex flex-col items-start justify-between p-8 card-service">
-      <img :src="gambar" class="" alt="Logo Card Service" />
+      <img :src="gambar" alt="Logo Card Service" />
       <h2 class="text-2xl font-bold">{{ title }}</h2>
       <p class="text-sm">
         {{ details }}

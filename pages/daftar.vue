@@ -2,10 +2,7 @@
   <div>
     <div class="flex items-center justify-center daftar">
       <div class="p-8 my-10 bg-white rounded-xl">
-        <!-- <h1 class="text-4xl font-bold text-center">Kelasku</h1> -->
-        <div class="flex justify-center">
-          <img src="~assets/images/logo_kelasku.svg" alt="Logo Kelasku" />
-        </div>
+        <h1 class="text-4xl font-bold text-center">Kelasku</h1>
         <h3 class="mt-10 text-2xl font-bold">Pendaftaran</h3>
         <p class="mb-10">Lengkapi data pribadi kamu di bawah ini</p>
         <div class="flex flex-col">
@@ -29,7 +26,7 @@
             <small>8+ karakter</small>
           </div>
 
-          <button type="submit" class="form-button">Daftar</button>
+          <nuxt-link to="dashboard" class="form-button">Daftar</nuxt-link>
         </div>
         <div class="my-16 bg-black line"></div>
         <div class="flex justify-center -mt-20">
