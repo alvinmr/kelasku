@@ -28,6 +28,7 @@ export default {};
 
 <style>
 .kids-image {
+  width: 65%;
   margin-left: 500px;
   margin-top: -280px;
 }
