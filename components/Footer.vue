@@ -1,8 +1,8 @@
 <template>
   <div class="relative footer">
-    <div class="flex flex-col py-32 mx-24">
+    <div class="flex flex-col py-16 mx-10 lg:mx-24">
       <div class="">
-        <h1 class="text-5xl font-bold text-white">Hubungi Kami</h1>
+        <h1 class="text-2xl font-bold text-white lg:text-5xl">Hubungi Kami</h1>
         <p class="text-white">
           Untuk pertanyaan kelasku, silakan kirim email kekelasku@gmail.com
         </p>

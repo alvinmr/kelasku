@@ -1,18 +1,18 @@
 <template>
   <div class="relative flex flex-col">
-    <div class="pb-64 service">
+    <div class="lg:flex lg:flex-col lg:justify-center service">
       <h1 class="mt-16 text-3xl font-bold text-center lg:text-5xl">
         Kelasku Menyediakan
       </h1>
       <div class="flex mx-auto">
-        <div class="flex items-center ml-20">
+        <div class="flex items-center ml-6">
           <div @click="left" class="cursor-pointer lg:hidden">
             <svg
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               viewBox="0 0 24 24"
               fill="none"
-              class="p-1 border rounded-full"
+              class="p-3 border rounded-full"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -26,11 +26,11 @@
           </div>
           <div @click="right" class="cursor-pointer lg:hidden">
             <svg
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               viewBox="0 0 24 24"
               fill="none"
-              class="p-1 ml-2 border rounded-full"
+              class="p-3 ml-2 border rounded-full"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -45,7 +45,7 @@
         </div>
         <div
           id="card-wrap"
-          class="grid justify-start grid-flow-col ml-8 overflow-scroll card-wrap lg:overflow-visible lg:justify-center"
+          class="grid justify-start grid-flow-col ml-3 overflow-scroll card-wrap lg:overflow-visible lg:justify-center"
         >
           <CardService
             title="Ebook"
