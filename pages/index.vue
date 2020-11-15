@@ -1,11 +1,15 @@
 <template>
-  <div>
-    <div class="awal">
-      <div class="mx-24">
+  <div class="overflow-hidden">
+    <div class="relative lg:pb-0 awal">
+      <div class="mx-10 lg:mx-24">
         <Navbar />
         <HeroSection />
       </div>
-      <img src="~/assets/images/wave.png" alt="wave" class="wave" />
+      <img
+        src="~/assets/images/wave.png"
+        alt="wave"
+        class="hidden lg:block wave"
+      />
     </div>
     <!-- Service Section -->
     <ServiceSection />
@@ -119,11 +123,16 @@ export default {};
 .wave {
   margin-top: -100px;
 }
-
+@screen lg {
+  .service {
+    background-size: 100px;
+  }
+}
 .service {
   background-image: url("~assets/images/shapes/ellips.svg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 230px;
+  background-size: 400px;
 }
 
 .childern-happy {
