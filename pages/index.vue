@@ -17,11 +17,13 @@
     <!-- Anak kecil lompat seneng heyy Section -->
     <div class="relative hidden pb-64 mt-20 childern-happy lg:block">
       <div class="flex">
-        <img
-          src="~/assets/images/kids_jump.png"
-          alt="kids jump"
-          class="-mt-16"
-        />
+        <div>
+          <img
+            src="~/assets/images/kids_jump.png"
+            alt="kids jump"
+            class="-mt-16"
+          />
+        </div>
         <div class="self-center">
           <h1 class="text-5xl font-bold text-white">Berkembang bersama</h1>
           <p class="w-11/12 mt-5 text-2xl text-white">
