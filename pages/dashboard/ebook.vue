@@ -21,7 +21,7 @@
         <p class="ml-5 text-gray-600">Kembali ke dashboard</p>
       </nuxt-link>
       <h1 class="mt-5 text-3xl">Ebook</h1>
-      <div class="grid grid-cols-3 gap-10 mt-16">
+      <div class="grid gap-10 mt-16 lg:grid-cols-3 md:grid-cols-2">
         <Card hasDownloadButton />
         <Card hasDownloadButton />
         <Card hasDownloadButton />

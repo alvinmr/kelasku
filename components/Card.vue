@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="flex flex-col p-8 border border-black rounded-xl">
-      <div class="bg-black card-image rounded-xl"></div>
-      <h1 class="mt-5 text-2xl">Heii ini judul</h1>
+      <div class="flex flex-grow bg-black card-image rounded-xl"></div>
+      <h1 class="mt-5 text-2xl">Heii ini judul adwasda adasda</h1>
       <h1 v-if="hasTime" class="my-3 text-gray-600">Selasa 11.00 - 12.00</h1>
       <div v-if="hasDownloadButton">
-        <div class="flex mt-5 cursor-pointer">
-          <p class="btn-download hover:bg-blue-100">
+        <div class="flex flex-grow mt-5 cursor-pointer">
+          <p class="btn-download hover:bg-blue-100 focus:bg-indigo-100">
             <img src="~assets/images/download.svg" class="mr-2" />
             Download
           </p>
@@ -53,9 +53,14 @@ h1 {
     bg-blue-200;
 }
 
+@screen sm {
+  .card-image {
+    width: 250px;
+  }
+}
+
 .card-image {
-  width: 300px;
-  height: 200px;
+  height: 250px;
   background-image: url("https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
   background-size: cover;
   background-position: center;

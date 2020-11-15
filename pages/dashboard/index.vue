@@ -1,8 +1,12 @@
 <template>
   <div>
     <img src="~assets/images/logo_kelasku.svg" alt="Logo Kelasku" />
-    <h1 class="mt-10 text-4xl font-bold">Selamat Datang Di Kelasku</h1>
-    <div class="grid grid-flow-col gap-10">
+    <h1 class="mt-10 text-xl font-bold lg:text-4xl">
+      Selamat Datang Di Kelasku
+    </h1>
+    <div
+      class="grid grid-flow-col grid-rows-2 gap-4 lg:grid-rows-none lg:gap-10"
+    >
       <MenuDashboard
         title="Ebook"
         :gambar="require('@/assets/images/ebook.svg')"
