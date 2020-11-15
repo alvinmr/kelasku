@@ -1,11 +1,11 @@
 <template>
   <div class="tentang">
-    <div class="mx-24">
+    <div class="mx-10 lg:mx-24">
       <Navbar />
-      <div class="flex flex-row items-center mt-20">
-        <div class="w-7/12 p-10">
-          <h1 class="text-5xl font-bold">Kelasku</h1>
-          <p>
+      <div class="flex flex-col items-center mt-20 lg:flex-row">
+        <div class="lg:p-10 lg:w-7/12">
+          <h1 class="text-5xl font-bold text-center lg:text-left">Kelasku</h1>
+          <p class="my-16 lg:my-0">
             Kelasku sangatlah berfokus terhadap perkembangan anak dibidang
             kreatif. Yang dimana kita ketahui layanan edukasi di bidang kreatif
             kita ketahi di Indonesia masih belom ada. Dan disinilah kita hadir,
@@ -13,7 +13,7 @@
             supaya tidak takut untuk berkarya.
           </p>
         </div>
-        <div class="relative w-7/12 tentang-gambar">
+        <div class="relative lg:w-7/12 tentang-gambar">
           <div class="absolute shape-1">
             <img src="~assets/images/shapes/tentang/Subtract.svg" alt="" />
           </div>
@@ -60,7 +60,7 @@
         </div>
       </div>
     </div>
-    <ServiceSection class="mt-40" />
+    <ServiceSection class="my-40" />
     <Footer />
   </div>
 </template>
@@ -72,7 +72,7 @@ export default {};
 <style scoped>
 .tentang {
   background-color: #F1F1F1;
-  height: 100vh;
+  height: 100%;
 }
 
 .shape-1 {

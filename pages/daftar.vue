@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="flex items-center justify-center daftar">
-      <div class="p-8 my-10 bg-white rounded-xl">
+    <div class="flex items-center justify-center w-full daftar">
+      <div class="p-8 my-10 bg-white lg:rounded-xl">
         <h1 class="text-4xl font-bold text-center">Kelasku</h1>
         <h3 class="mt-10 text-2xl font-bold">Pendaftaran</h3>
         <p class="mb-10">Lengkapi data pribadi kamu di bawah ini</p>
         <div class="flex flex-col">
-          <div class="flex flex-row">
+          <div class="flex flex-col md:flex-row lg:flex-row">
             <div class="mr-2 input-group">
               <label for="nama_depan">Nama depan</label>
               <input type="text" name="nama_depan" />
@@ -77,7 +77,7 @@ input:focus {
 
 .form-button {
   background-color: #7EA6E0;
-  @apply w-full py-4 mt-5 font-bold text-center text-white;
+  @apply py-4 mt-5 font-bold text-center text-white;
 }
 
 .btn-google {
