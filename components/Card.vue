@@ -1,9 +1,9 @@
 <template>
   <div>
-    <nuxt-link to="/">
+    <nuxt-link :to="`${this.$route.fullPath}/pages`">
       <div class="flex flex-col p-8 border border-black card rounded-xl">
         <div
-          :style="{ backgroundImage: 'url(' + require(image) + '))' }"
+          :style="{ backgroundImage: `url(${image})` }"
           class="flex flex-grow bg-black card-image rounded-xl"
         ></div>
         <h1 class="mt-5 text-2xl">{{ title }}</h1>
@@ -49,7 +49,7 @@ export default {
     },
     image: {
       type: String,
-      default: "~assets/gambar_kelas/ebook/1.png",
+      default: `https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/1.png`,
     },
   },
 };
