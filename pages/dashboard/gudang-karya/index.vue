@@ -22,11 +22,31 @@
       </nuxt-link>
       <h1 class="mt-5 text-3xl">Gudang Karya</h1>
       <div class="grid gap-10 mt-16 lg:grid-cols-3 md:grid-cols-2">
-        <Card hasAvatar />
-        <Card hasAvatar />
-        <Card hasAvatar />
-        <Card hasAvatar />
-        <Card hasAvatar />
+        <Card
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/gudang_karya/1.png"
+          title="Terbanglah"
+        />
+        <Card
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/gudang_karya/2.png"
+          title="Bersinarlah Kawan"
+        />
+        <Card
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/gudang_karya/3.png"
+          title="Hidup Bagai Pensil"
+        />
+        <Card
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/gudang_karya/4.png"
+          title="Todong Ke Atas"
+        />
+        <Card
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/gudang_karya/5.png"
+          title="Dari Sekarang !"
+        />
       </div>
     </div>
   </div>

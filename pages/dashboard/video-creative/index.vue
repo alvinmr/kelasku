@@ -25,27 +25,27 @@
         <Card
           hasDownloadButton
           title="Susun Dan Implementasikan"
-          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video-creativ/1.png"
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video_creativ/1.png"
         />
         <Card
           hasDownloadButton
           title="Jangan Takut Dalam Memulai"
-          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video-creativ/2.png"
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video_creativ/2.png"
         />
         <Card
           hasDownloadButton
           title="Hirarki Dalam Desain"
-          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video-creativ/3.png"
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video_creativ/3.png"
         />
         <Card
           hasDownloadButton
           title="Apa itu Ide ?"
-          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video-creativ/4.png"
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video_creativ/4.png"
         />
         <Card
           hasDownloadButton
           title="Susun Dan Eksekuasi"
-          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video-creativ/5.png"
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/video_creativ/5.png"
         />
       </div>
     </div>

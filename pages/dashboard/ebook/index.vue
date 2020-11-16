@@ -23,26 +23,31 @@
       <h1 class="mt-5 text-3xl">Ebook</h1>
       <div class="grid gap-10 mt-16 lg:grid-cols-3 md:grid-cols-2">
         <Card
+          Ebook
           hasDownloadButton
           title="Jangan Takut Memulai"
           image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/1.png"
         />
         <Card
+          Ebook
           hasDownloadButton
           title="Jadilah Berbeda"
           image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/2.png"
         />
         <Card
+          Ebook
           hasDownloadButton
           title="Lakukan Hal Gila"
           image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/3.png"
         />
         <Card
+          Ebook
           hasDownloadButton
           title="Terbanglah Tinggi"
           image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/4.png"
         />
         <Card
+          Ebook
           hasDownloadButton
           title="Ayo Memulai"
           image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/ebook/5.png"

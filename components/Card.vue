@@ -1,6 +1,38 @@
 <template>
   <div>
-    <nuxt-link :to="`${this.$route.fullPath}/pages`">
+    <nuxt-link v-if="Ebook" to="">
+      <div class="flex flex-col p-8 border border-black card rounded-xl">
+        <div
+          :style="{ backgroundImage: `url(${image})` }"
+          class="flex flex-grow bg-black card-image rounded-xl"
+        ></div>
+        <h1 class="mt-5 text-2xl">{{ title }}</h1>
+        <h1 v-if="hasTime" class="my-3 text-gray-600">{{ time }}</h1>
+        <div v-if="hasDownloadButton">
+          <div class="flex flex-grow mt-5 cursor-pointer">
+            <p class="btn-download hover:bg-blue-100 focus:bg-indigo-100">
+              <img src="~assets/images/download.svg" class="mr-2" />
+              Download
+            </p>
+          </div>
+        </div>
+        <div class="mt-5" v-if="hasAvatar">
+          <hr />
+          <div class="flex flex-row items-center mt-5">
+            <img
+              src="https://i.pravatar.cc/300"
+              class="w-2/12 rounded-full"
+              alt="avatar"
+            />
+            <div class="ml-5">
+              <h1>Alvin Maulana</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nuxt-link>
+    <!-- link -->
+    <nuxt-link v-else :to="`${this.$route.fullPath}/pages`">
       <div class="flex flex-col p-8 border border-black card rounded-xl">
         <div
           :style="{ backgroundImage: `url(${image})` }"
@@ -37,6 +69,7 @@
 export default {
   props: {
     hasTime: Boolean,
+    Ebook: Boolean,
     hasDownloadButton: Boolean,
     hasAvatar: Boolean,
     time: {

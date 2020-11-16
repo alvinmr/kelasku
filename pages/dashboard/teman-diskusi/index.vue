@@ -22,11 +22,36 @@
       </nuxt-link>
       <h1 class="mt-5 text-3xl">Teman Diskusi</h1>
       <div class="grid gap-10 mt-16 lg:grid-cols-3 md:grid-cols-2">
-        <Card hasTime hasAvatar />
-        <Card hasTime hasAvatar />
-        <Card hasTime hasAvatar />
-        <Card hasTime hasAvatar />
-        <Card hasTime hasAvatar />
+        <Card
+          hasTime
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/teman_diskusi/1.png"
+          title="Creativitas Tanpa Batas"
+        />
+        <Card
+          hasTime
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/teman_diskusi/2.png"
+          title="Ayo Berbeda!"
+        />
+        <Card
+          hasTime
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/teman_diskusi/3.png"
+          title="Mulailah Dulu"
+        />
+        <Card
+          hasTime
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/teman_diskusi/4.png"
+          title="Kapan Haru Berhenti ?"
+        />
+        <Card
+          hasTime
+          hasAvatar
+          image="https://raw.githubusercontent.com/alvinmr/kelasku/main/assets/gambar_kelas/teman_diskusi/5.png"
+          title="Pasti Bisa!"
+        />
       </div>
     </div>
   </div>
