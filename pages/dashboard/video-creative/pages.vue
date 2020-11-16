@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mx-24">
+    <div class="mx-10 lg:mx-24">
       <nuxt-link to="/dashboard" class="flex flex-row py-10">
         <svg
           width="24"
@@ -20,16 +20,18 @@
         </svg>
         <p class="ml-5 text-gray-200">Kembali ke dashboard</p>
       </nuxt-link>
-      <h1 class="mb-5 text-5xl font-bold text-white">Video Kreatif</h1>
+      <h1 class="mb-5 text-2xl font-bold text-white lg:text-5xl">
+        Video Kreatif
+      </h1>
     </div>
-    <div class="flex flex-row justify-center mx-24">
+    <div class="flex flex-col justify-center mx-10 lg:flex-row lg:mx-24">
       <div class="image-page"></div>
       <img src="~assets/images/gudang_karya.png" class="w-full" />
       <div class="flex flex-col w-11/12 ml-5">
-        <h1 class="text-3xl font-bold text-white">
+        <h1 class="text-xl font-bold text-white lg:text-3xl">
           8 Pelajaran (1 Jam 2 Menit)
         </h1>
-        <div class="w-10/12">
+        <div class="lg:w-10/12">
           <div class="flex flex-row items-center mt-5">
             <svg
               width="24"

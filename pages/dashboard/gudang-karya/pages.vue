@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="mx-24">
-      <nuxt-link to="/dashboard" class="flex flex-row py-10">
+    <div class="mx-10 lg:mx-24">
+      <nuxt-link to="/dashboard" class="flex flex-row lg:py-10">
         <svg
           width="24"
           height="24"
@@ -20,12 +20,14 @@
         </svg>
         <p class="ml-5 text-gray-200">Kembali ke dashboard</p>
       </nuxt-link>
-      <h1 class="mb-5 text-5xl font-bold text-white">Gudang Karya</h1>
+      <h1 class="mt-6 mb-5 text-xl font-bold text-white lg:text-5xl">
+        Gudang Karya
+      </h1>
     </div>
-    <div class="flex flex-row justify-center mx-24">
+    <div class="flex flex-col justify-center mx-10 lg:mx-24 lg:flex-row">
       <div class="image-page"></div>
       <img src="~assets/images/gudang_karya.png" class="w-full" />
-      <div class="flex flex-col w-11/12 ml-5">
+      <div class="flex flex-col ml-5 lg:w-11/12">
         <h1 class="text-3xl font-bold text-white">Hello world</h1>
         <p class="text-xl text-white">
           setiap orang memiliki mimpi yang ingin mereka wujudkan. Namun tidak

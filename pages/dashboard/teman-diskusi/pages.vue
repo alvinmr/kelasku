@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mx-24">
+    <div class="mx-10 lg:mx-24">
       <nuxt-link to="/dashboard" class="flex flex-row py-10">
         <svg
           width="24"
@@ -20,15 +20,19 @@
         </svg>
         <p class="ml-5 text-gray-200">Kembali ke dashboard</p>
       </nuxt-link>
-      <h1 class="mb-5 text-5xl font-bold text-white">Teman Diskusi</h1>
+      <h1 class="mb-5 text-2xl font-bold text-white lg:text-5xl">
+        Teman Diskusi
+      </h1>
     </div>
-    <div class="flex flex-row justify-center mx-24">
+    <div class="flex flex-col justify-center mx-10 lg:mx-24 lg:flex-row">
       <div class="image-page"></div>
       <img src="~assets/images/gudang_karya.png" class="w-full" />
       <div class="flex flex-col w-11/12 ml-5">
-        <h1 class="text-3xl font-bold text-white">Diskusi (1 Jam 2 Menit)</h1>
-        <div class="w-10/12">
-          <div class="flex flex-row items-center mt-5">
+        <h1 class="text-xl font-bold text-white lg:text-3xl">
+          Diskusi (1 Jam 2 Menit)
+        </h1>
+        <div class="lg:w-10/12">
+          <div class="flex items-center mt-5 lg:flex-row">
             <svg
               width="24"
               height="24"
@@ -45,8 +49,10 @@
                 stroke-linejoin="round"
               ></path>
             </svg>
-            <p class="ml-3 text-xl text-white">Creativitas Tanpa Batas</p>
-            <p class="ml-auto text-xl text-white">Live</p>
+            <p class="ml-3 text-sm text-white lg:text-xl">
+              Creativitas Tanpa Batas
+            </p>
+            <p class="ml-auto text-sm text-white lg:text-xl">Live</p>
           </div>
         </div>
       </div>
